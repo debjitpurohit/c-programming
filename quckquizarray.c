@@ -14,11 +14,12 @@ int main(){
    // printf("the value of i is %d\n",i);
    // printf("the address of ptr after i is incremented is %u\n",ptr);
    // printf("the adress of i after i is incremented is %u \n",&i);
-    //ptr=ptr+2; // ptr adres increased by 8
-   // printf("the address of ptr after ptr is incremented is %u\n",ptr);
+   //ptr=ptr-2; // ptr adres decreassed by 8
+   // printf("the address of ptr after ptr is decremented is %u\n",ptr);
     ptr=ptr+2; //ptr=5+2=7
-    printf("the address of ptr after i is inccremented is %d\n",ptr);
-    printf("the adress of i after i is incremented is %d \n",ptr-&i);
+    printf("the address of ptr after ptr is inccremented is %u \n",ptr); //&ptr[0]=ptr
+    printf("the adress of i after ptr is incremented is %u \n",&i);
+    printf("the address of ptr after ptr is inccremented is %u\n",ptr-&i); // not show the actual difference between {8} ptr and i ,,,, it show the actualdifference/4bytes
     if (ptr>&i)
     {
         printf("ptr is greater");

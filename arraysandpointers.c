@@ -2,8 +2,9 @@
 
 int main(){
     int marks[3]={1,2,3};
-    //&marks[0] = marks //very very important 
-    int *ptr =&marks; //marks;
+    //&marks[0] = marks //very very important
+    //int *ptr=&marks[0] 
+    int *ptr =marks; //marks;
     *ptr=89; // by the * pointer the value of 0 array become 89 insted of 1
     ptr++;
     *ptr=65;
