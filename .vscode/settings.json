@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "DECREESSEDLOOP.C": "cpp"
+        "DECREESSEDLOOP.C": "cpp",
+        "typeinfo": "c"
     }
 }
