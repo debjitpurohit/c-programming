@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "DECREESSEDLOOP.C": "cpp",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "malloc.h": "c"
     }
 }

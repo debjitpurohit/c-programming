@@ -1,2 +1,2 @@
-printf("the adress of i is %u \n", &i);
-    printf("the adress of j is %u \n", &j);
+ // ptr = (int *)malloc(5 * sizeof(int));
+    // free(ptr);//memory of ptr released from malloc or calloc
